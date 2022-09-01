@@ -11,9 +11,11 @@ public class LearnPriorityQueue {
         pq.offer(16);
         pq.offer(18);
         pq.offer(10);
+        pq.offer(20);
 
         System.out.println(pq);
 
+        System.out.println(pq.poll());
         System.out.println(pq.poll());
 
         System.out.println(pq);
